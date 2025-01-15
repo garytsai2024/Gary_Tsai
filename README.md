@@ -21,4 +21,13 @@ Python虛擬環境與Visual Studio Code開發環境
 
 檢查在venv虛擬環境中，目前已安裝的模組，執行： pip list，可以看見除了 pip 24.3.1模組，還新增了numpy 2.2.1模組
 
-執行 Visual studio code
+執行 Visual studio code，
+
+在 Visual studio code 中，選單中，選擇 File，選擇 Open Folder，選擇 D:\python-course 資料夾
+
+在 Visual studio code 中，在 D:\python-course 資料夾內增加一個測試檔案：test.py，輸入以下程式碼：
+
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+newarr = arr.reshape(4, 3)
+print(newarr)
