@@ -1,5 +1,4 @@
-# Gary_Tsai
-Python虛擬環境與Visual Studio Code開發環境
+# Python虛擬環境與Visual Studio Code開發環境
 
 參考 何敏煌 Python虛擬環境與Visual Studio Code開發環境 - YouTube：https://www.youtube.com/watch?v=PsS5aA0qSD8 
 
@@ -45,7 +44,7 @@ Set-ExecutionPolicy RemoteSigned
 
 使用系統管理員權限去開一個Power Shell：選擇 Windows 開始，選擇 Powershell，按滑鼠右鍵選擇 Powershell 7 (x64)，選擇更多，選擇【以系統管理員身分執行】
 
-在 Powershell 中，在命令列輸入： Set-ExecutionPolicy RemoteSigned，然後按 Enter 執行。如果有出現問句，則輸入 yes，然後按 Enter。
+在 Powershell 中，在命令列輸入： Set-ExecutionPolicy RemoteSigned，然後按 Enter 執行。如果有出現問句，則輸入 y，然後按 Enter。
 
 回到 Visual studio code，將之前開的 Terminal 關掉， 然後在 Visual studio code 選單中，選擇 Termial，選擇 New Terminal，這時 Termial 應該就是在在venv虛擬環境中。
 可以執行： pip list，檢查安裝的模組是不適只有 pip 24.3.1模組 及 numpy 2.2.1模組
