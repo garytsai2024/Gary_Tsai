@@ -27,7 +27,10 @@ Python虛擬環境與Visual Studio Code開發環境
 
 在 Visual studio code 中，在 D:\python-course 資料夾內增加一個測試檔案：test.py，輸入以下程式碼：
 
-import numpy as np
-arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
-newarr = arr.reshape(4, 3)
-print(newarr)
+  import numpy as np
+
+  arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+
+  newarr = arr.reshape(4, 3)
+
+  print(newarr)
