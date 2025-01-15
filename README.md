@@ -41,3 +41,8 @@ Python虛擬環境與Visual Studio Code開發環境
 > 回到 Visual studio code，將之前開的 Terminal 關掉， 然後在 Visual studio code 選單中，選擇 Termial，選擇 New Terminal，這時 Termial 應該就是在在venv虛擬環境中。
 > 檢查在venv虛擬環境中，目前已安裝的模組，可以執行： pip list，檢查安裝的模組是不是只有 pip 24.3.1模組 及 numpy 2.2.1模組。
   
+打包虛擬環境
+---
+> 在venv虛擬環境中執行： pip freeze > requirement.txt，就會將此虛擬環境安裝的模組與版本寫入requirement.txt\
+> 當其他人要重建此虛擬環境時，只要執行：pip install -r ".\requirement.txt"，就能依據 requirement.txt 所列的模組及對應版本進行安裝
+> 
