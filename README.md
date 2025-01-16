@@ -1,6 +1,6 @@
 Python虛擬環境與Visual Studio Code開發環境
 ===
-參考 何敏煌 Python虛擬環境與Visual Studio Code開發環境 - YouTube：https://www.youtube.com/watch?v=PsS5aA0qSD8 
+參考：何敏煌 Python虛擬環境與Visual Studio Code開發環境 - YouTube：https://www.youtube.com/watch?v=PsS5aA0qSD8 
 
 建立Python虛擬環境
 ---
