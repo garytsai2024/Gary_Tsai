@@ -30,7 +30,11 @@ New Terminal：
 
 打包虛擬環境：
 ---
->  在終端提示符號前有 (venv)的情況下，執行：pip freeze > requirement.txt，就會將此虛擬環境安裝的模組與版本寫入requirement.txt
+>  在終端提示符號前有 (venv)的情況下，執行：pip freeze > requirements.txt，就會將此虛擬環境安裝的模組與版本寫入requirements.txt
+
+重建打包的虛擬環境：
+---
+>  在終端提示符號前有 (venv)的情況下，執行：pip install -r ".\requirememts.txt"，就會安裝requirements.txt中所列的全部模組
 
 關閉 虛擬環境：
 ---
