@@ -1,9 +1,10 @@
-Python虛擬環境與Visual Studio Code開發環境
-===
-參考：何敏煌 Python虛擬環境與Visual Studio Code開發環境 - YouTube：https://www.youtube.com/watch?v=PsS5aA0qSD8 
+# Python虛擬環境與Visual Studio Code開發環境
+>  參考：何敏煌 Python虛擬環境與Visual Studio Code開發環境 - YouTube：https://www.youtube.com/watch?v=PsS5aA0qSD8 
+
 
 執行 Visual studio code
 ---
+
 Open Folder：
 ---
 >  在Visual studio code中，選單中，選擇 File，選擇 Open Folder
