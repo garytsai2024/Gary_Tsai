@@ -15,15 +15,15 @@ New Terminal：
 
 建立 虛擬環境：
 ---
->  在Terminal中，執行： virtualenv venv
+>  在 Visual studio code的Terminal中，執行： virtualenv venv
 
 啟動 虛擬環境：
 ---
->  在Terminal中，執行： venv\scripts\activate.ps1，結果終端提示符號前會出現 (venv) ， 表示我們已經在venv虛擬環境中
+>  在 Visual studio code的Terminal中，執行： venv\scripts\activate.ps1，結果終端提示符號前會出現 (venv) ， 表示我們已經在venv虛擬環境中
 
 檢查 虛擬環境：
 ---
->  在Terminal中，執行： pip list，應該只看見安裝了 pip 24.3.1，其他模組都沒有裝
+>  在 Visual studio code的Terminal中，執行： pip list，應該只看見安裝了 pip 24.3.1，其他模組都沒有裝
 
 在虛擬環境中安中模組：
 ---
